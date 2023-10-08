@@ -1,0 +1,53 @@
+[
+    {
+      "DepartmentID": 101,
+      "DepartmentName": "Computer Science",
+      "Description": "The department of computer science offers programs in software engineering, artificial intelligence, and more."
+    },
+    {
+      "DepartmentID": 102,
+      "DepartmentName": "Electrical Engineering",
+      "Description": "The electrical engineering department focuses on electrical systems, electronics, and power generation."
+    },
+    {
+      "DepartmentID": 103,
+      "DepartmentName": "Mechanical Engineering",
+      "Description": "The mechanical engineering department covers areas such as thermodynamics, robotics, and materials science."
+    },
+    {
+      "DepartmentID": 104,
+      "DepartmentName": "Civil Engineering",
+      "Description": "Civil engineering deals with the design and construction of infrastructure projects like bridges and roads."
+    },
+    {
+      "DepartmentID": 105,
+      "DepartmentName": "Chemistry",
+      "Description": "The chemistry department explores chemical reactions, materials, and laboratory techniques."
+    },
+    {
+      "DepartmentID": 106,
+      "DepartmentName": "Physics",
+      "Description": "Physics studies the fundamental principles of the universe, including motion, energy, and matter."
+    },
+    {
+      "DepartmentID": 107,
+      "DepartmentName": "Biology",
+      "Description": "The biology department delves into the study of living organisms and their ecosystems."
+    },
+    {
+      "DepartmentID": 108,
+      "DepartmentName": "Mathematics",
+      "Description": "Mathematics covers a wide range of mathematical concepts and theories."
+    },
+    {
+      "DepartmentID": 109,
+      "DepartmentName": "Business Administration",
+      "Description": "The business administration department focuses on management, marketing, and finance."
+    },
+    {
+      "DepartmentID": 110,
+      "DepartmentName": "Psychology",
+      "Description": "Psychology explores human behavior, cognition, and mental processes."
+    }
+  ]
+      

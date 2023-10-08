@@ -1,0 +1,93 @@
+[
+    {
+      "ResultID": 1,
+      "StudentID": 1,
+      "Company": "TechCorp",
+      "Package": 80000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-06-15",
+      "OtherInfo": "Full-time software engineer position"
+    },
+    {
+      "ResultID": 2,
+      "StudentID": 2,
+      "Company": "Innovate Solutions",
+      "Package": 75000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-05-20",
+      "OtherInfo": "Front-end developer role"
+    },
+    {
+      "ResultID": 3,
+      "StudentID": 3,
+      "Company": "ElectroTech",
+      "Package": 90000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-06-30",
+      "OtherInfo": "Electrical engineer position"
+    },
+    {
+      "ResultID": 4,
+      "StudentID": 4,
+      "Company": "BuildWell Constructions",
+      "Package": 70000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-05-10",
+      "OtherInfo": "Civil engineer role"
+    },
+    {
+      "ResultID": 5,
+      "StudentID": 5,
+      "Company": "DataMinds",
+      "Package": 85000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-06-25",
+      "OtherInfo": "Data analyst position"
+    },
+    {
+      "ResultID": 6,
+      "StudentID": 6,
+      "Company": "MediCare Hospitals",
+      "Package": 75000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-06-05",
+      "OtherInfo": "Nurse position"
+    },
+    {
+      "ResultID": 7,
+      "StudentID": 7,
+      "Company": "BankPro",
+      "Package": 85000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-07-10",
+      "OtherInfo": "Financial analyst role"
+    },
+    {
+      "ResultID": 8,
+      "StudentID": 8,
+      "Company": "Marketing Innovators",
+      "Package": 70000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-05-30",
+      "OtherInfo": "Marketing executive position"
+    },
+    {
+      "ResultID": 9,
+      "StudentID": 9,
+      "Company": "HealthTech Solutions",
+      "Package": 90000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-07-15",
+      "OtherInfo": "Healthcare software engineer"
+    },
+    {
+      "ResultID": 10,
+      "StudentID": 10,
+      "Company": "AnalyticsPro",
+      "Package": 80000,
+      "PassoutYear": 2023,
+      "PlacementDate": "2023-06-20",
+      "OtherInfo": "Data scientist role"
+    }
+  ]
+  

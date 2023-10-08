@@ -1,0 +1,135 @@
+[
+    {
+      "StudentID": 1,
+      "FirstName": "John",
+      "LastName": "Doe",
+      "DateOfBirth": "1995-05-10",
+      "Email": "john.doe@example.com",
+      "Phone": "123-456-7890",
+      "DepartmentID": 101,
+      "Address": "123 Main St, Cityville",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 2,
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "DateOfBirth": "1997-02-15",
+      "Email": "jane.smith@example.com",
+      "Phone": "987-654-3210",
+      "DepartmentID": 102,
+      "Address": "456 Elm St, Townsville",
+      "Gender": "Female"
+    },
+    {
+      "StudentID": 3,
+      "FirstName": "David",
+      "LastName": "Johnson",
+      "DateOfBirth": "1996-09-22",
+      "Email": "david.johnson@example.com",
+      "Phone": "555-123-4567",
+      "DepartmentID": 103,
+      "Address": "789 Oak St, Villageton",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 4,
+      "FirstName": "Emily",
+      "LastName": "Brown",
+      "DateOfBirth": "1998-04-05",
+      "Email": "emily.brown@example.com",
+      "Phone": "222-987-6543",
+      "DepartmentID": 104,
+      "Address": "567 Pine St, Townsville",
+      "Gender": "Female"
+    },
+    {
+      "StudentID": 5,
+      "FirstName": "Michael",
+      "LastName": "Wilson",
+      "DateOfBirth": "1994-11-30",
+      "Email": "michael.wilson@example.com",
+      "Phone": "777-555-1234",
+      "DepartmentID": 105,
+      "Address": "234 Cedar St, Cityville",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 6,
+      "FirstName": "Olivia",
+      "LastName": "Miller",
+      "DateOfBirth": "1997-07-18",
+      "Email": "olivia.miller@example.com",
+      "Phone": "888-222-9876",
+      "DepartmentID": 101,
+      "Address": "456 Birch St, Villageton",
+      "Gender": "Female"
+    },
+    {
+      "StudentID": 7,
+      "FirstName": "William",
+      "LastName": "Anderson",
+      "DateOfBirth": "1995-03-12",
+      "Email": "william.anderson@example.com",
+      "Phone": "999-888-2222",
+      "DepartmentID": 102,
+      "Address": "789 Maple St, Townsville",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 8,
+      "FirstName": "Sophia",
+      "LastName": "Garcia",
+      "DateOfBirth": "1996-08-27",
+      "Email": "sophia.garcia@example.com",
+      "Phone": "111-999-8888",
+      "DepartmentID": 103,
+      "Address": "123 Elm St, Cityville",
+      "Gender": "Female"
+    },
+    {
+      "StudentID": 9,
+      "FirstName": "James",
+      "LastName": "Martinez",
+      "DateOfBirth": "1998-01-02",
+      "Email": "james.martinez@example.com",
+      "Phone": "444-111-9999",
+      "DepartmentID": 104,
+      "Address": "567 Oak St, Villageton",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 10,
+      "FirstName": "Ava",
+      "LastName": "Harris",
+      "DateOfBirth": "1999-06-25",
+      "Email": "ava.harris@example.com",
+      "Phone": "666-444-1111",
+      "DepartmentID": 105,
+      "Address": "345 Cedar St, Townsville",
+      "Gender": "Female"
+    },
+    {
+      "StudentID": 11,
+      "FirstName": "Benjamin",
+      "LastName": "Clark",
+      "DateOfBirth": "1995-12-08",
+      "Email": "benjamin.clark@example.com",
+      "Phone": "777-666-4444",
+      "DepartmentID": 101,
+      "Address": "678 Birch St, Cityville",
+      "Gender": "Male"
+    },
+    {
+      "StudentID": 12,
+      "FirstName": "Mia",
+      "LastName": "Lewis",
+      "DateOfBirth": "1997-04-20",
+      "Email": "mia.lewis@example.com",
+      "Phone": "888-777-6666",
+      "DepartmentID": 102,
+      "Address": "234 Maple St, Villageton",
+      "Gender": "Female"
+    }
+]
+  

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Switch Login Form | Coderider</title>
+</head>
+<body>
+<div class="one">
+    <div class="form-collection">
+        <div class="card elevation-3 limit-width log-in-card below turned">
+            <h1 class="box-title">Student Login</h1>
+            <div class="card-body">
+                <div class="input-group email">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Enter Student Id" id="suname" />
+                </div>
+                <div class="input-group password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password" id="spwd" />
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="login-btn" onclick="valid1()">Login</button>
+            </div>
+        </div>
+
+        <div class="card elevation-2 limit-width sign-up-card above">
+            <h1 class="box-title">Faculty/Admin</h1>
+            <div class="card-body">
+                <div class="input-group email">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" placeholder="Username" id="auname"/>
+                </div>
+                <div class="input-group password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password" id="apwd"/>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="signup-btn" onclick="valid2()">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btn">
+    <button onclick="flip()">Flip</button>
+</div>
+
+<!-- Jquery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+
+<!-- Your custom JavaScript code -->
+<script>
+    function flip() {
+        var belowCard = $('.below'),
+            aboveCard = $('.above'),
+            parent = $('.form-collection');
+        parent.addClass('animation-state-1');
+        setTimeout(function () {
+            belowCard.removeClass('below');
+            aboveCard.removeClass('above');
+            belowCard.addClass('above');
+            aboveCard.addClass('below');
+            setTimeout(function () {
+                parent.addClass('animation-state-finish');
+                parent.removeClass('animation-state-1');
+                setTimeout(function () {
+                    aboveCard.toggleClass('turned');
+                    belowCard.toggleClass('turned');
+                    parent.removeClass('animation-state-finish');
+                }, 300);
+            }, 10);
+        }, 300);
+    }
+
+    function valid1() {
+        var suname = document.getElementById("suname").value;
+        var spwd = document.getElementById("spwd").value;
+        if (spwd == "19950510","19970215","19960922","19980405" && suname == "1001","1002","1003","1004") {
+            window.location.href = "student.html";
+        } else {
+            alert("Invalid key. Please try again.");
+        }
+    }
+    function valid2() {
+        var auname = document.getElementById("auname").value;
+        var apwd = document.getElementById("apwd").value;
+        if (apwd == "admin123" && auname == "admin") {
+            window.location.href = "admin.html";
+        }
+        else if(apwd=="1234","9876","1432" && auname=="101a1","101a2","101a3"){
+            window.location.href = "coordinatorprofile.html";
+        } else {
+            alert("Invalid key. Please try again.");
+        }
+    }
+</script>
+</body>
+</html>
